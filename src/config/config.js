@@ -10,8 +10,6 @@ const envVarsSchema = Joi.object()
     PORT: Joi.number().default(3000),
     // mongoose
     MONGODB_URL: Joi.string().required().description('Mongo DB url'),
-    MONGODB_PASSWORD: Joi.string().required(),
-    MONGODB_USER: Joi.string().required(),
     //
     JWT_SECRET: Joi.string().required().description('JWT secret key'),
     JWT_ACCESS_EXPIRATION_MINUTES: Joi.number().default(30).description('minutes after which access tokens expire'),

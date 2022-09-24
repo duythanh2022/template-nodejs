@@ -17,9 +17,9 @@ const defaultRoutes = [
     route: userRoute,
   },
   {
-    path:'/api',
+    path: '/api',
     route: productRoute,
-  }
+  },
 ];
 
 const devRoutes = [

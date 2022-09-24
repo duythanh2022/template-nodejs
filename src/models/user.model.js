@@ -44,12 +44,12 @@ const userSchema = mongoose.Schema(
       type: Boolean,
       default: false,
     },
-    phone:{
-      type:Number
+    phone: {
+      type: Number,
     },
-    address:{
-      type:String
-    }
+    address: {
+      type: String,
+    },
   },
   {
     timestamps: true,
